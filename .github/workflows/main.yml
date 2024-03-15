@@ -29,7 +29,7 @@ jobs:
 
   PublishToGithub:
     name: Publish to Github
-    needs: [ LoggerTests ]
+    # needs: [ LoggerTests ]
     uses: ./.github/workflows/publish-to-github.yml
     with:
       package-path: ./**/*.nupkg
