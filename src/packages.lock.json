@@ -30,14 +30,8 @@
         "resolved": "1.2.0.556",
         "contentHash": "zvn9Mqs/ox/83cpYPignI8hJEM2A93s2HkHs8HYMOAQW0PkampyoErAiIyKxgTLqbbad29HX/shv/6LGSjPJNQ=="
       },
-      "l0gg3r.base": {
+      "l0gg3r": {
         "type": "Project"
-      },
-      "l0gg3r.logsinks.base": {
-        "type": "Project",
-        "dependencies": {
-          "L0gg3r.Base": "[1.0.0, )"
-        }
       }
     }
   }

@@ -32,11 +32,11 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(UseProjectReferences)' != 'true'">
-    <PackageReference Include="L0gg3r.LogSinks.Base" Version="[1.*-*, 2)" />
+    <PackageReference Include="L0gg3r" Version="[1.*-*, 2)" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(UseProjectReferences)' == 'true'">
-    <ProjectReference Include="$(ProjectsDir)/L0gg3r.LogSinks.Base/src/L0gg3r.LogSinks.Base.csproj" />
+    <ProjectReference Include="$(ProjectsDir)/L0gg3r/src/L0gg3r.csproj" />
   </ItemGroup>
 
   <Target Name="Print Build Mode" BeforeTargets="BeforeBuild">

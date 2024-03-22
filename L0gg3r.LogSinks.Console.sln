@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L0gg3r.LogSinks.Console", "src\L0gg3r.LogSinks.Console.csproj", "{7305B7BF-4D76-4027-AF8F-6048DF65AFA6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{89B23757-87C8-42AB-A6A7-778E38ACFB95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleConsoleWriterExample", "SimpleConsoleWriterExample", "{5467851E-AF93-42CC-BC86-2341F5546FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConsoleWriterExample", "examples\SimpleConsoleWriterExample\src\SimpleConsoleWriterExample.csproj", "{BDC47E95-23F2-4B95-BFFE-908E44450B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L0gg3r", "..\L0gg3r\src\L0gg3r.csproj", "{6D3CCCA3-EC33-4342-A95A-3638F0AC6569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,17 @@ Global
 		{7305B7BF-4D76-4027-AF8F-6048DF65AFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7305B7BF-4D76-4027-AF8F-6048DF65AFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7305B7BF-4D76-4027-AF8F-6048DF65AFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC47E95-23F2-4B95-BFFE-908E44450B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC47E95-23F2-4B95-BFFE-908E44450B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC47E95-23F2-4B95-BFFE-908E44450B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC47E95-23F2-4B95-BFFE-908E44450B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3CCCA3-EC33-4342-A95A-3638F0AC6569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3CCCA3-EC33-4342-A95A-3638F0AC6569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3CCCA3-EC33-4342-A95A-3638F0AC6569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3CCCA3-EC33-4342-A95A-3638F0AC6569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5467851E-AF93-42CC-BC86-2341F5546FFD} = {89B23757-87C8-42AB-A6A7-778E38ACFB95}
+		{BDC47E95-23F2-4B95-BFFE-908E44450B08} = {5467851E-AF93-42CC-BC86-2341F5546FFD}
 	EndGlobalSection
 EndGlobal
